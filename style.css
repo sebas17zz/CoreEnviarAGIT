@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(0, 132, 184);
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+nav div{
+    align-items: center;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+nav a{
+    margin-left: 1%;
+    margin-right: 1%;
+    text-decoration: none;
+    color: white;
+}
+#contenedor{
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+   
+}
+#contenedor-tarjetas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tarjeta{
+    width: 200px;
+    height: 250px;
+    background-color: rgba(183, 179, 179, 0.978);
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 40px;
+   
+}
+.img3{
+    margin-top: 20px;
+    width:80px ;
+    height:80px ;
+   
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 200%;
+    text-align: center;
+} 
+#buenosaires1{
+    display: none;
+}
+#CDM1{
+    display: none;
+}
+#Santiago1{
+    display: none;
+}
+#SP1{
+    display: none;
+}
+#Quito1{
+    display: none;
+}
+.btn{
+    width: 2%;
+    color:white;
+    background-color: rgb(79, 0, 113);
+}
